@@ -8,6 +8,9 @@ images:
   k8s.gcr.io/sig-storage/csi-node-driver-registrar: forging2012/csi-node-driver-registrar
   k8s.gcr.io/sig-storage/csi-resizer: forging2012/csi-resizer
   k8s.gcr.io/sig-storage/csi-snapshotter: forging2012/csi-snapshotter
+  quay.io/ceph/ceph: forging2012/ceph
+  quay.io/cephcsi/cephcsi: forging2012/cephcsi
+  quay.io/csiaddons/volumereplication-operator: forging2012/volumereplication-operator
 
 
 
