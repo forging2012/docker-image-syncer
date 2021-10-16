@@ -3,14 +3,24 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
+  # storage
   k8s.gcr.io/sig-storage/csi-attacher: forging2012/csi-attacher
   k8s.gcr.io/sig-storage/csi-provisioner: forging2012/csi-provisioner
   k8s.gcr.io/sig-storage/csi-node-driver-registrar: forging2012/csi-node-driver-registrar
   k8s.gcr.io/sig-storage/csi-resizer: forging2012/csi-resizer
   k8s.gcr.io/sig-storage/csi-snapshotter: forging2012/csi-snapshotter
+  # rook
   quay.io/ceph/ceph: forging2012/ceph
   quay.io/cephcsi/cephcsi: forging2012/cephcsi
   quay.io/csiaddons/volumereplication-operator: forging2012/volumereplication-operator
+  # kubeadm
+  k8s.gcr.io/kube-apiserver: forging2012/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: forging2012/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: forging2012/kube-scheduler
+  k8s.gcr.io/kube-proxy: forging2012/kube-proxy
+  k8s.gcr.io/pause: forging2012/pause
+  k8s.gcr.io/etcd: forging2012/etcd
+  k8s.gcr.io/coredns/coredns: forging2012/coredns/coredns
 
 
 
