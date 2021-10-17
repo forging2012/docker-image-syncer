@@ -33,6 +33,8 @@ jobs:
       run: |
         sed -i "s#USERNAME#${DOCKERHUB_USERNAME}#g" config.yaml
         sed -i "s#PASSWORD#${DOCKERHUB_PASSWORD}#g" config.yaml
+        sed -i "s#ALIYUN_USERNAME#${ALIYUN_DOCKERHUB_USERNAME}#g" config.yaml
+        sed -i "s#ALIYUN_PASSWORD#${ALIYUN_DOCKERHUB_PASSWORD}#g" config.yaml
 
     - name: sync images
       run: |
