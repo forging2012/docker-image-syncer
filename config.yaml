@@ -2,6 +2,9 @@ auth:
   registry.hub.docker.com:
     username: USERNAME
     password: PASSWORD
+  registry.cn-hangzhou.aliyuncs.com:
+    username: ALIYUN_USERNAME
+    password: ALIYUN_PASSWORD
 images:
   # storage
   k8s.gcr.io/sig-storage/csi-attacher: forging2012/csi-attacher
